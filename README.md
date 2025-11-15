@@ -1,16 +1,72 @@
-# React + Vite
+EraAI – Modern React Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and modern chat UI built with React + Tailwind CSS featuring real-time animations, emoji picker, file & image sharing, voice recording, message status indicators, and a clean WhatsApp-inspired interface.
 
-Currently, two official plugins are available:
+🚀 Features
+✅ Messaging
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Send & receive messages
 
-## React Compiler
+Auto-scroll to latest message
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Typing indicator (animated dots)
 
-## Expanding the ESLint configuration
+😊 Emojis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Custom emoji picker
+
+One-click emoji insert
+
+📎 File & Media Sharing
+
+Upload and send files
+
+Preview & send images
+
+Attachment UI
+
+🎤 Voice Recording
+
+Start, stop, cancel recording
+
+Live recording timer
+
+Sends voice message with duration
+
+🕒 Message Status
+
+Single tick → sent
+
+Double tick → delivered
+
+Blue double tick → read
+
+🌈 UI & UX
+
+Beautiful gradient chat bubbles
+
+Smooth fade-in animations
+
+Responsive design for mobile & desktop
+
+Modern header with options (search, call, more)
+
+🛠️ Tech Stack
+
+React.js (Hooks, Refs, Components)
+
+Tailwind CSS (UI & Animations)
+
+Lucide Icons
+
+MediaRecorder API
+
+FileReader API
+
+📂 Project Structure
+src/
+  ├── App.jsx
+  ├── components/
+  ├── assets/
+  ├── styles/
+  └── index.js
